@@ -1,6 +1,12 @@
 defmodule SumList do
   def call(list), do: sum(list, 0)
 
+  def call_enum(list), do: Enum.map(list, fn elem -> elem + 1 end)
+  # O Enum.sum  faz o papel de somar os valores em uma lista
+  # Enum.max retorna o maior
+  # Enum.min retorna o menor
+  # Enum.map primeiro argumento é a lista o segundo é a função que vamos usar para fazer algo com nossos valores
+
   defp sum([], acc), do: acc
   # se a função for de uma linha pode usar o do: e tirar o end
   defp sum([head | tail], acc) do
