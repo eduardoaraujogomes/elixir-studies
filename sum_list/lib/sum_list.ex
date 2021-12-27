@@ -3,8 +3,8 @@ defmodule SumList do
 
   # def call_enum(list), do: Enum.map(list, fn elem -> elem + 1 end)
   # O Enum.sum  faz o papel de somar os valores em uma lista
-  # Enum.max retorna o maior
-  # Enum.min retorna o menor
+  # Enum.max retorna o maior.
+  # Enum.min retorna o menor.
   # Enum.map primeiro argumento é a lista o segundo é a função que vamos usar para fazer algo com nossos valores
   # Enum.any? retorna um boolean
   # Enum.map(%{a: 1, b: 2}, fn {_chave, valor} -> valor end)
