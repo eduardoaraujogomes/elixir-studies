@@ -44,7 +44,7 @@ Espero que até aqui tenha ficado mais claro o que é recursão: uma função qu
 
 ## O "problema" da recursão
 
-Se você já usa ou usou o paradigma funcional seja no trabalho ou em algum estudo que fez, é provável que já tenha visto ou ouvido em algum lugar que **recursão é ineficiente** e, acredite ou não, isso não é totalmente mentira.
+Se você já usa ou usou o paradigma funcional seja no trabalho ou em algum estudo que fez, é  provável que já tenha visto ou ouvido em algum lugar que **recursão é ineficiente** e, acredite ou não, isso não é totalmente mentira.
 
 Partindo para mais um exemplo prático, vamos analisar o seguinte código:
 
